@@ -1,0 +1,118 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*  */
+}
+.container{
+    background-color: #fff;
+    width: 99%;
+}
+.mid-container{
+    color: black;
+    width: auto;
+}
+.row{
+    display: flex;
+    text-align: center;
+}
+.row img{
+    width: 30px;
+    height: auto;
+}
+.row .col1{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.row .col2{
+    display: flex;
+    margin-left: auto;
+}
+.row .col2 img{
+    margin-right: 15px;
+}
+
+/* Stories section */
+.stories-section{
+    display: flex;
+    margin: auto;
+}
+.stories-section img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 11px;
+    padding: 3px;
+    border: 2px solid rgb(225, 48, 108);
+}
+/* Post Sections */
+.col1 img{
+    width: 60%;
+    height: auto;
+    border: 1px solid #fff;
+}
+section{
+    background-color: whitesmoke;
+}
+.post-name{
+    display: flex;
+    align-items: center;
+}
+.col1 .post-name img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 8px;
+    padding: 3px;
+    /* border: 2px solid rgb(225, 48, 108); */
+}
+h5{
+    position: relative;
+    top:-25px;
+    left: 56px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.post-list h2{
+    font-size: 18px;
+    font-weight: 200;
+}
+.post-size{
+    margin-left:20%
+}
+.items{
+    cursor: pointer;
+}
+.bottom .items img{
+    width: 25px;
+    height: auto;
+    margin-left: 18px;
+    margin-top: 20px;
+    /* margin: 15px 8px; */
+}
+.col1{
+    margin-top: 40px;
+}
+
+/* footer */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.fot{
+    display: flex;
+    cursor: pointer;
+}
+.foot{
+    margin: auto;
+}
+.foot img{
+    width: 30px;
+}
+h1{
+    font-style: italic;
+}
